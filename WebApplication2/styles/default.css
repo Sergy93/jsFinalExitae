@@ -1,0 +1,11 @@
+﻿#partners > ul > li > a:hover {
+    position: relative;
+}
+
+    #partners > ul > li > a:hover:after {
+        content: url(../images/menuhov.jpg);
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 40px;
+    }
