@@ -7,7 +7,7 @@
     <meta name="description" content="" />
 
     <link href="styles/styles.css" rel="stylesheet" />
-    <link href="styles/default.css" rel="stylesheet" />
+    <link href="styles/presupuesto.css" rel="stylesheet" />
 </head>
 <body>
     <div id="content">
@@ -31,26 +31,25 @@
         <div id="main_top">
             <div id="main">
                 <div id="right">
-                    <h4><a href="">La empresa</a> | <a href="">Metodología</a> | <a href="">Historia</a> | <a href="">Personal</a></h4>
-                    <div class="text">
+
+                    <h2>Presupuesto</h2>
+
+                    <div id="formulario">
+                        <h3 id="datos">DATOS</h3>
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" />
+                        <br />
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" />
+                        <br />
+                        <label for="telefono">Telefono de contacto</label>
+                        <input type="text" id="telefono" />
 
                     </div>
 
-                    <h4>Ultimo trabajo</h4>
-                    <div class="text">
-                        <img src="images/pic01.jpg" alt="" title="" style="float:left; padding-right: 10px; padding-left: 10px;" />
-                        <p>Programación de una web para una floristería de Madrid</p>
-                        <p>
-                            En este trabajo se realizó la web en PHP y MYSQL con sistema de e-Commerce, gestión integral del contenido de la web mendiante un sistema de intranet para el cliente, y un sistema de control de stock y envío de flores a domicilio<br /><br />Tiempo invertido desde la entrega del material por parte del cliente de 3 semanas.
-                            . Precio de la web: 2000€
-                        </p>
-                    </div>
-                    <div class="date">
-                        <div class="dateright"><a href="#">Agosto, 2010</a></div>				<div class="dateleft"><a href="#">Comentarios(2)</a></div>
-                    </div>
                 </div>
                 <div id="left">
-
                     <h3>Ultimas noticias</h3>
                     <div id="categories">
                         &nbsp;
@@ -73,19 +72,17 @@
             <div id="main_bottom"></div>
         </div>
 
+        <div id="footer">
+            <p>Página web de miempresa.com, desarrollada en HTML y JavaScript</p>
+        </div>
+
+        <!--
+            I place js files at the bottom of the page so they are loaded the last and doesn't make the web load slower
+        -->
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="scripts/presupuesto.js"></script>
+        <script src="scripts/feed.js"></script>
     </div>
-
-
-    <div id="footer">
-        <p>Página web de miempresa.com, desarrollada en HTML y JavaScript</p>
-    </div>
-
-    <!--
-        I place js files at the bottom of the page so they are loaded the last and doesn't make the web load slower
-    -->
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="scripts/index.js"></script>
-    <script src="scripts/feed.js"></script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+﻿#right > h2 {
+    color: darkorange;
+    margin: 2%;
+    font-size: 2em;
+}
+
+#formulario {
+    margin: 5%;
+    color: darkorange;
+}
+
+    #formulario input[type="text"] {
+        position: relative;
+        width: 100%;
+        right: 10px;
+    }
+
+h3#datos {
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 1.5em;
+}

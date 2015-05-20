@@ -81,8 +81,12 @@
     <Content Include="images\small.gif" />
     <Content Include="images\timeicon.gif" />
     <Content Include="index.html" />
+    <Content Include="presupuesto.html" />
+    <Content Include="scripts\feed.js" />
     <Content Include="scripts\index.js" />
+    <Content Include="scripts\presupuesto.js" />
     <Content Include="styles\default.css" />
+    <Content Include="styles\presupuesto.css" />
     <Content Include="styles\styles.css" />
     <Content Include="SubmenuContent.html" />
     <Content Include="Web.config" />
