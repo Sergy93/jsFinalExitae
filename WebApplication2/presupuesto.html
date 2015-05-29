@@ -22,7 +22,7 @@
                     <li><a href="presupuesto.html" title="">Presupuesto</a></li>
                     <li><a href="galeria.html" title="">Galería</a></li>
                     <li><a href="dondeestamos.html" title="">Dónde estamos</a></li>
-                    <li><a href="contacto" title="">Contacto</a></li>
+                    <li><a href="contacto.html" title="">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -45,7 +45,57 @@
                         <br />
                         <label for="telefono">Telefono de contacto</label>
                         <input type="text" id="telefono" />
+                        <br />
+                        <label for="telefono">Email</label>
+                        <input type="text" id="email" />
 
+                        <br /><br />
+                        <h3 id="laWeb">LA WEB</h3>
+                        <br /><br />
+
+                        <label for="tipoWeb">Tipo de página web</label>
+                        <select id="tipoWeb">
+                            <option id="empresarial">Empresarial 2000€</option>
+                            <option id="personal">Personal 1000€</option>
+                            <option id="blog">Blog 500€</option>
+                        </select>
+                        <br />
+                        <label for="plazo">Plazo</label>
+                        <input type="number" id="plazo" />
+                        <br />
+                        <label>Marque las acciones seleccionadas</label>
+                        <br />
+                        <label>
+                            <input type="checkbox" id="quienesSomos" />Quienes somos
+                        </label>
+                        <label>
+                            <input type="checkbox" id="dondeEstamos" />Donde estamos
+                        </label>
+                        <label>
+                            <input type="checkbox" id="galeriaFotos" />Galeria de Fotos
+                        </label>
+                        <label>
+                            <input type="checkbox" id="eCommerce" />eCommerce
+                        </label>
+                        <label>
+                            <input type="checkbox" id="gestionInterna" />Gestion Interna
+                        </label>
+                        <label>
+                            <input type="checkbox" id="noticias" />Noticias
+                        </label>
+                        <label>
+                            <input type="checkbox" id="facebook" />Facebook
+                        </label>
+                        <label>
+                            <input type="checkbox" id="twitter" />Twitter
+                        </label>
+
+                        <br /><br />
+                        <h3 id="lblPresupuesto">Presupuesto Estimado</h3>
+                        (Recuerde que este presupuesto depende del tipo de web y puede estar sujeto a cambios)
+                        <br /><br />
+
+                        <input type="number" id="presupuesto" disabled='disabled' />
                     </div>
 
                 </div>

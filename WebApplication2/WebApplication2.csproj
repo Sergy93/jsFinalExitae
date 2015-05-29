@@ -88,7 +88,10 @@
     <Content Include="styles\default.css" />
     <Content Include="styles\presupuesto.css" />
     <Content Include="styles\styles.css" />
-    <Content Include="SubmenuContent.html" />
+    <Content Include="Submenu2.html" />
+    <Content Include="Submenu3.html" />
+    <Content Include="Submenu1.html" />
+    <Content Include="Submenu4.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
